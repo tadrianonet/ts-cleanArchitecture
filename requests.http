@@ -1,0 +1,12 @@
+### Create Investment
+POST http://localhost:3000/api/investments
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "Investment 1",
+  "amountInvested": 1000
+}
+
+### Get Investment
+GET http://localhost:3000/api/investments/1
